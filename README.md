@@ -40,9 +40,9 @@
 本项目遵循经典的编译器五阶段设计。为了理清符号表管理与 x86 寄存器映射的复杂逻辑，在开发初期绘制了详细的编译流程图：
 
 <div align="center">
-  <img src="./architecture_flow.svg" width="600px" alt="Compiler Flowchart" />
+  <img src="./architecture_flow.svg" width="1000px" alt="Compiler Flowchart" />
   <br>
-  <sub>图 1：从高级语言到 x86 汇编的全流程映射逻辑（建议点击图片查看高清大图）</sub>
+  <sub>图 1：编译全流程（点击图片查看高清大图，'Unable to render code block'则可在右上角下载原图）</sub>
 </div>
 
 **技术关键点：**
