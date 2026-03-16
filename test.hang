@@ -1,0 +1,10 @@
+hang
+{
+    int a, b, c, result;
+    in(a);
+    b = 3;
+    c = 4;
+    result = (a + b)*2-c/2;
+    when(result>10)
+    {out(result);}
+}
